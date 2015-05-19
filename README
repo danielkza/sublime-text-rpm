@@ -1,6 +1,6 @@
 RPM packaging files for Sublime Text
 
-Main files are installed in /opt/sublime_text. Icons are moved to their correct
+Main files are installed in /opt/sublime-text. Icons are moved to their correct
 place at /usr/share/icons, and a desktop file is included in /usr/share/applications.
 
 Unlike some other packages available online, this does not download the program
