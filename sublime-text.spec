@@ -5,6 +5,7 @@
 %define major_version 3
 %define build_version 3083
 %define _subldir /opt/sublime-text
+%define debug_package %{nil}
 
 Name:    sublime-text
 Summary: Sublime Text is a sophisticated text editor for code, markup and prose.
