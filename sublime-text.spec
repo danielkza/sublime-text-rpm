@@ -18,9 +18,9 @@ URL:     http://sublimetext.com
 ExclusiveArch: i686 x86_64
 
 %ifarch i686
-Source0: http://c758482.r82.cf2.rackcdn.com/sublime_text_%{major_version}_build_%{build_version}_x32.tar.bz2
+Source0: https://download.sublimetext.com/sublime_text_%{major_version}_build_%{build_version}_x32.tar.bz2
 %else
-Source0: http://c758482.r82.cf2.rackcdn.com/sublime_text_%{major_version}_build_%{build_version}_x64.tar.bz2
+Source0: https://download.sublimetext.com/sublime_text_%{major_version}_build_%{build_version}_x64.tar.bz2
 %endif
 Source1: sublime_text.desktop
 Source2: subl
