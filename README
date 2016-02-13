@@ -9,7 +9,7 @@ I cannot provided pre-compiled versions. You must create them yourself.
 The process is easy, fortunately.
 
 For example, for Fedora, you need the rpmdevtools and rpm-build packages. Then,
-after cd-ing to this project's folder, do:
+after cd-ing to this project's folder, run `./build.sh`, or equivalently:
 
  spectool -g sublime-text.spec
  rpmbuild --define "_sourcedir $PWD" -bb sublime-text.spec
