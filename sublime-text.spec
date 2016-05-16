@@ -3,14 +3,14 @@
 # http://sublimetext.com
 
 %define major_version 3
-%define build_version 3103
+%define build_version 3114
 %define _subldir /opt/sublime-text
 %define debug_package %{nil}
 
 Name:    sublime-text
 Summary: Sublime Text is a sophisticated text editor for code, markup and prose.
 Version: %{major_version}.%{build_version}
-Release: 3%{?dist}
+Release: 1%{?dist}
 Group:   Applications/Editors
 License: Proprietary
 URL:     http://sublimetext.com
@@ -90,6 +90,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/icons/hicolor/*/apps/sublime-text.png
 
 %changelog
+* Tue May 16 2016 Wes Render <wes.render@outlook.com> 3.3114-1
+- Update Readme for search engine. Update Sublime Build to 3114
+
 * Tue May 19 2015 Daniel Miranda <danielkza2@gmail.com> 3.3083-3
 - Replace subl symlink with wrapper script to fix window class when run
 
