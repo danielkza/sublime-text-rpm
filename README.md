@@ -1,4 +1,5 @@
-RPM packaging files for Sublime Text
+# RPM packaging files for Sublime Text
+## Suitable for RPM based Linux such as Fedora, RedHat & CentOS
 
 Main files are installed in /opt/sublime-text. Icons are moved to their correct
 place at /usr/share/icons, and a desktop file is included in /usr/share/applications.
@@ -11,8 +12,9 @@ The process is easy, fortunately.
 For example, for Fedora, you need the rpmdevtools and rpm-build packages. Then,
 after cd-ing to this project's folder, run `./build.sh`, or equivalently:
 
- spectool -g sublime-text.spec
- rpmbuild --define "_sourcedir $PWD" -bb sublime-text.spec
+`spectool -g sublime-text.spec`
+
+`rpmbuild --define "_sourcedir $PWD" -bb sublime-text.spec`
 
 If everything went correctly, you should see the path of the resulting RPM
 printed in rpmbuild's output. e.g.:
