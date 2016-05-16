@@ -12,17 +12,20 @@ The process is easy, fortunately.
 For example, for Fedora, you need the rpmdevtools and rpm-build packages. Then,
 after cd-ing to this project's folder, run `./build.sh`, or equivalently:
 
-`spectool -g sublime-text.spec`
-
-`rpmbuild --define "_sourcedir $PWD" -bb sublime-text.spec`
+```
+spectool -g sublime-text.spec`
+rpmbuild --define "_sourcedir $PWD" -bb sublime-text.spec
+```
 
 If everything went correctly, you should see the path of the resulting RPM
 printed in rpmbuild's output. e.g.:
 
- Wrote: /home/danielkza/rpmbuild/RPMS/x86_64/sublime-text-3.3083-3.fc21.x86_64.rpm
+`Wrote: /home/danielkza/rpmbuild/RPMS/x86_64/sublime-text-3.3083-3.fc21.x86_64.rpm`
 
 Just install it and you're good to go.
 
-If a new version has been released and I have yet not updated the spec, you
-can do it yourself by simply changing the build_version variable at the top
-of the file to the correct build. Then shoot me a pull request aftwerwards.
+If a new version has been released and the spec has yet not been updated, it's
+easy to fix it yourself. All that is needed is to change the `build_version`
+variable at the top of the file to the correct build and reset the release
+number to 1. Aftwerwards, please send a pull request with the update if
+possible.
