@@ -3,7 +3,7 @@
 # http://sublimetext.com
 
 %define major_version 3
-%define build_version 3114
+%define build_version 3120
 %define _subldir /opt/sublime-text
 %define debug_package %{nil}
 
@@ -90,6 +90,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/icons/hicolor/*/apps/sublime-text.png
 
 %changelog
+* Sat Aug 06 2016 Daniel Miranda <danielkza2@gmail.com> 3.3120-1
+- New upstream build
+
 * Tue May 16 2016 Wes Render <wes.render@outlook.com> 3.3114-1
 - Update Readme for search engine. Update Sublime Build to 3114
 
