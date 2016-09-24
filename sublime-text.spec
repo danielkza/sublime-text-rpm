@@ -3,7 +3,7 @@
 # http://sublimetext.com
 
 %define major_version 3
-%define build_version 3124
+%define build_version 3125
 %define _subldir /opt/sublime-text
 %define debug_package %{nil}
 
@@ -90,6 +90,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/icons/hicolor/*/apps/sublime-text.png
 
 %changelog
+* Sat Sep 24 2016 Daniel Miranda <danielkza2@gmail.com> 3.3125-1
+- New upstream build
+
 * Sat Sep 24 2016 Daniel Miranda <danielkza2@gmail.com> 3.3124-1
 - New upstream build
 
