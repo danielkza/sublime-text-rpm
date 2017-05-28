@@ -1,3 +1,10 @@
+# Deprecation Notice
+
+Official Sublime Text [repositories](https://www.sublimetext.com/docs/3/linux_repositories.html#dnf)
+are now available and should be used instead of this repository.
+
+---
+
 # RPM packaging files for Sublime Text
 ## Suitable for RPM based Linux such as Fedora, RedHat & CentOS
 
